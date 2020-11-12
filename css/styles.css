@@ -89,7 +89,7 @@ header {
     header li {
         display: inline-block
     }
-
+    #2DB400
     header a {
         display: block;
         color: #00C33B;
@@ -623,8 +623,10 @@ footer {
     }
 
 #contact {
+    
     padding: 50px 15px;
-    background: #2DB400;
+    background: url(../images/foot-bg.jpg);
+    object-fit: none;
     text-align: center
 }
 
@@ -632,6 +634,11 @@ footer {
         margin: 0 0 15px 0;
         color: #fff;
         font-weight: 500
+    }
+    #contact h3 {
+        margin: 0 0 15px 0;
+        color: #fff;
+        font-weight: 300
     }
 
 #contact-form {
