@@ -87,7 +87,8 @@ header {
     }
 
     header li {
-        display: inline-block
+        display: inline-block;
+        margin: 7px
     }
     #2DB400
     header a {
