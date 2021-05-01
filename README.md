@@ -22,5 +22,6 @@
 |F1-Score|0.998|0.998|
 
 
+### 분석
 
-
+![슬라이드1](https://user-images.githubusercontent.com/74284500/116784388-eeb8b780-aace-11eb-89d2-9da6cd24ae74.JPG)
