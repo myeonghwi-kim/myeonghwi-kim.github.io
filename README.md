@@ -1,4 +1,3 @@
-# Myeonghwi-Kim Portfolio
 
 ### 예측기 실행 방법
 - model.py 파일의 load_model 함수 실행 -> 모델 생성 및 저장
@@ -25,3 +24,24 @@
 ### 분석
 
 ![슬라이드1](https://user-images.githubusercontent.com/74284500/116784388-eeb8b780-aace-11eb-89d2-9da6cd24ae74.JPG)
+
+![슬라이드2](https://user-images.githubusercontent.com/74284500/116784472-5a028980-aacf-11eb-9783-000201e5a061.JPG)
+
+#### 데이터 전처리
+#### 1. feature 선택
+- unused_columns 
+  - user_id, partner_id : 고유 식별자
+  - audience_id, product_category : 비제공
+  - click_timestamp : sort기준으로만 사용 해당 데이터에서는 lines수로 sort
+
+#### 2. 문자열 숫자 변환
+- encode_feature() 함수 정의: 파라미터는 dataframe
+- Lable Encoder 사용
+  - One-hot Encoding 사용 시, dtype= objec의 unique 값이 많아 벡터의 차원이 너무 커진다
+
+#### 모델 생성 - LR(Logistic Regression) 사용
+#### 1. scikit-learn을 이용한 로지스틱 회귀 모델 
+#### 2. pkl 형식으로 모델 추출 및 생성
+
+
+
